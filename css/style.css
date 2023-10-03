@@ -15,7 +15,6 @@
     font-style: normal; 
     color:var(--main-text-color);
     margin: 0px;
-
 }
 
 
@@ -79,21 +78,9 @@
     align-items: center;
     column-gap: 10px;
  }
-
-
-
-
  .header-contacts ul li:hover{
    fill:#2196F3;
  }
-
-
-
-
-
- 
-
-
 
 
 
@@ -140,19 +127,13 @@
      height: 120px;
      margin-bottom: -5px;
 }
-
-
 .features-style h3{
    margin-bottom: 10px;
    margin-top: 30px;
 }
-
 .features-style p{
     margin: 0px;
 }
-
-
-
 .feature-h2{ 
     Width: 198px;
     justify-content: center;
@@ -178,7 +159,6 @@
     flex-direction: column;
     justify-content: center;
     padding: 94px 0px;
-    
 }
 .our-team-style h2{
     margin:0px 0px 50px 0px;
@@ -207,7 +187,6 @@
 .emp-information{
     padding: 30px 32px;
     margin-top:-5px;
-    
 }
 .employee-svg{
     display: flex;
@@ -503,11 +482,6 @@ background-color: #2196F3;
 
 
 
-
-
-
-
-
 .buttons-style{ 
     background-color:var(--button-background-color); 
     color:var(--main-text-color); 
@@ -622,3 +596,33 @@ h2{
     line-height:2.57;
 }
 
+
+/* Modal section */
+
+
+.modal{
+    position: fixed;
+    width: 650px;
+    height: 700px;
+    top:0px;
+    left:0px;
+    background-color: #FFFFFF;
+}
+.modal-conten{
+
+}
+.close-btn{
+    color: #000000;
+    background-color: #FFF; 
+    cursor: pointer;
+    position: absolute; 
+    border: 1px solid #ECECEC;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    top:8px;
+    right: 8px;
+}
+.is-hiden{
+  visibility: hidden;
+}
