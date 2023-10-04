@@ -423,8 +423,12 @@ background-color: #2196F3;
 }
 
 .current{
-    color:var(--main-activ-text-color);
+    padding-bottom: 29px;
+    color: var(--main-activ-text-color);
+    border-bottom: 4px solid var(--main-activ-text-color);
+    border-radius: 2px;
 }
+
 
 
 .header-contacts ul, .mail, .phone-number {
