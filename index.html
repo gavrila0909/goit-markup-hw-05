@@ -196,11 +196,9 @@
         <div class="footer-section3">
           <h3>Subscribe to the newsletter</h3>
           <form class="footer-input" action="">
-            <input  type="email" placeholder="E-mail" />
-            <div class="footer-input-submit">
-              <input  type="submit" value="Subscribe"/>
-              <svg ><use href="./symbol-defs.svg#icon-icon-send"/></svg>
-            </div>
+            <input  type="email" placeholder="E-mail" required/>
+             <button type="submit">Subscribe <svg ><use href="./symbol-defs.svg#icon-icon-send"/></svg>
+             </button>
           </form>
         </div>
      </div>
@@ -212,7 +210,7 @@
 
   <div class="modal is-hidden" data-modal>
     <div class="modal-content">
-      <div class="modal-btn"><button  class="close-btn" data-modal-close>&times;</button></div>
+      <button  class="modal-close-btn" data-modal-close>&times;</button>
 
         <h2>Leave your information and we'll call you back</h2>
       <form action="" method="get" autocomplete="off" class="contact-form">
@@ -242,15 +240,20 @@
        </div>
 
        <div class="form-row" >
-        <label for="comments">Comments</label>
+        <label for="comments" >Comments</label>
         <div class="input-container">
-          <textarea name="comments" placeholder="Enter the text"></textarea>
+          <textarea  id="comments" name="comments" placeholder="Enter the text"></textarea>
         </div>
         </div>
-       
-        <div class="input-button">
-          <input type="submit" value="Send"/>
+        <div class=" input-container terms-and-conditions-container">
+          <input class="terms-and-conditions-check" type="checkbox" id="terms-and-conditions" name="terms-and-conditions" value="checked"/>
+          <label class="terms-and-conditions-label" for="terms-and-conditions">
+          <svg class="icon-checkbox"> <use href="./symbol-defs.svg#icon-checkbox"></use></svg>
+          <span>I agree with the letter and accept the <a href="#">Terms and Conditions</a></span>
+          </label>
         </div>
+        <button type="submit">Send</button>
+        
         
        </form>
     </div>
