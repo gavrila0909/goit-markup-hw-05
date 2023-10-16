@@ -550,7 +550,6 @@ background-color: #188CE8;
     text-transform: uppercase;  
     line-height:60px;
     margin: 0px;
-    width:696px;
 }
 
 .main-button{
@@ -863,8 +862,12 @@ input:focus, textarea:focus{
     border-color: #000000;
 }
 
-
-.contact-form button{
+.contact-form-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form-button button{
     color: #FFF;
     text-align: center;
     font-size: 16px;
